@@ -8,7 +8,7 @@
         <!--<script type="text/javascript" charset="utf-8" src="cordova-2.2.0.js"></script>-->
         <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
         <script type="text/javascript" charset="utf-8" src="js/jquery_1.5.2.min.js"></script>
-        <!--<script type="text/javascript" src="PushNotification.js"></script>
+        <script type="text/javascript" src="PushNotification.js"></script>
 
         <script type="text/javascript">
             var pushNotification;
@@ -87,7 +87,7 @@ $.ajax({
     data: "company=2&name=naam&email=test@test.be&regId="+ e.regid,
     success: function(){
        //$("#app-status-ul").append('<li>GELUKT</li>');
-	   document.location="http://www.buscoach.be/mobile/index.php?phoneId=" + e.regid;
+	   document.location="http://www.dokter-meurrens.be/mobile/index.php?phoneId=" + e.regid;
     },
     error: function(XMLHttpRequest, textStatus, errorThrown) {
         //$("#app-status-ul").append('<li>NIET GELUKT</li>');
@@ -148,7 +148,6 @@ $("#app-status-ul").append('<li>EVENT -> Unknown, an event was received and we d
 document.addEventListener('deviceready', onDeviceReady, true);
 
          </script>
-		 -->
 
 <div id="home">
 <div id="app-status-div">
