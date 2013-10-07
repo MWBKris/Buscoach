@@ -6,10 +6,10 @@
         id        = "be.buscoach.app"
         version   = "1.0.0">
 
-    <name>Vantieghem Bus & Coach</name>
+    <name>Vantieghem Bus &amp; Coach</name>
 
     <description>
-        Vantieghem Bus & Coach
+        Vantieghem Bus &amp; Coach
     </description>
 
     <author href="http://my-websitebuilder.com" email="support@my-websitebuilder.com">
